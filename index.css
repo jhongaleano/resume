@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.lado-derecho{
+    width: 75%;
+    height: auto;
+    background-color: #f0f0f0;
+    z-index: 1;
+    border-left: #36343450;
+    box-shadow: 0 0 0 1px #36343450;
+}
+.lado-izquierdo{
+    width: 30%;
+    height:auto;
+    background-color: #363434;
+}
+.centro{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(to right, rgba(105, 70, 187, 0.671),rgb(104, 20, 104));
+    margin-top: 15%;
+}
+.icon{
+    justify-items: center;
+    padding-top: 20%;
+    list-style:none;
+}
+.icon li{
+    color: white;
+    padding: 10px;
+    justify-content: left;
+}
+.centro2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 6.5%;
+    justify-content: end;
+    align-items: center;
+
+}
+.img{
+    width: 50%; 
+    margin-right: 5%;
+}   
+.img img{
+ margin-left: 110px;
+}
+.nombre{
+    width: 50%;
+    height: 100%;
+    background-image:linear-gradient(to right, rgba(105, 70, 187, 0.671),rgb(104, 20, 104));
+    text-align: left;
+    padding-left: 10%;
+}
+.nombre h1{
+    font-size: 2.5rem;
+    margin-top: 20%;
+}
+.estu{
+    width: 300px;
+    margin-left: 5%;
+    margin-top: 90px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    color: #f0f0f0;
+    font-size: 2rem;
+    border-bottom: 2px solid #ffffff;
+}
+.cursos{
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    color: #f0f0f0;
+
+    font-size: 1.5rem;
+}
+.cursos ul{
+    list-style: none;
+    padding-bottom: 90px;
+}
+.clasifi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+} 
+ .primero{
+    width: 30%;
+    height: 20px;
+    background-color: #9c9999d8;
+    border-radius: 20px;
+}
+.clasifi .primero .color{
+    height: 100%;
+    border-radius: 20px;
+}
+.sobre_mi{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.sobre{
+    width: 90%;
+    height: auto;
+    background-color: #f0f0f0;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-shadow: 0 0 0 1px #36343450;
+}
+.mi{
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #363434;
+    font-weight: bold;
+    text-align: justify;
+}
+.habilidad{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+.hab{
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 0 0 1px #36343450;
+    margin-bottom: 5%;
+    color: #363434;
+}
+.habilidades{
+    list-style: none;
+    margin-top: 30px;
+    text-align: justify;
+    font-weight: bold;
+    color: #363434;
+}
+.rojo{
+    width: 10%;
+    background: #ff4d4d;
+}
+.verde{
+    width: 20%;
+    background: #33cc33;
+}
+.azul{
+    width: 30%;
+    background: #1a75ff;
+}
+.violeta{
+    width: 40%;
+    background: #b366ff;
+}
+.amarillo{
+    width: 50%;
+    background: #ffff66;
+}
